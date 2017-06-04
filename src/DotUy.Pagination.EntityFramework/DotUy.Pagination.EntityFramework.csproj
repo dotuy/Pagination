@@ -5,6 +5,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Product>DotUy .NET Pagination extension for EntityFrameworkCore</Product>
+    <Description>Enumerable Page IQueryable extensions</Description>
+    <PackageProjectUrl>https://github.com/dotuy/Pagination</PackageProjectUrl>
+    <PackageTags>EntityFrameworkCore Pagination Extension</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

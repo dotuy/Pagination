@@ -5,10 +5,9 @@
     <VersionSuffix>preview</VersionSuffix>
   </PropertyGroup>
   <PropertyGroup>
-    <Product>DotUy ASP.NET Core</Product>
-    <RepositoryUrl>https://github.com/dotuy/Pagination</RepositoryUrl>
+    <Company>DotUy</Company>
+    <Authors>Bart Calixto</Authors>
     <RepositoryType>git</RepositoryType>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
   </PropertyGroup>
-
 </Project>
