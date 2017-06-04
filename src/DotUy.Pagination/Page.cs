@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace DotUy.Pagination
 {
@@ -27,9 +26,9 @@ namespace DotUy.Pagination
             }
 
             this.items = items;
-            TotalCount = totalCount;
-            PageSize = pageSize;
             CurrentPage = pageNumber;
+            PageSize = pageSize;
+            TotalCount = totalCount;
         }
 
         public int CurrentPage { get; }

@@ -2,16 +2,16 @@
 {
     public interface IPage
     {
-        int PageSize { get; }
-
         int CurrentPage { get; }
 
+        int PageSize { get; }
+
         int TotalCount { get; }
+
+        int TotalPages { get; }
 
         bool HasPreviousPage { get; }
 
         bool HasNextPage { get; }
-
-        int TotalPages { get; }
     }
 }
