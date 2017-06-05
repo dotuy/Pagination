@@ -5,9 +5,14 @@
     <VersionSuffix>preview</VersionSuffix>
   </PropertyGroup>
   <PropertyGroup>
+    <Product>DotUy NET Pagination</Product>
     <Company>DotUy</Company>
     <Authors>Bart Calixto</Authors>
+    <Copyright>DotUy 2017</Copyright>
+    <PackageTags>Page Pagination</PackageTags>
+    <PackageProjectUrl>https://github.com/dotuy/Pagination</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/dotuy/Pagination</RepositoryUrl>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
   </PropertyGroup>
 </Project>

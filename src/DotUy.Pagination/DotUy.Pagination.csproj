@@ -5,10 +5,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Product>DotUy .NET Pagination</Product>
-    <Description>Enumerable Page</Description>
-    <PackageProjectUrl>https://github.com/dotuy/Pagination</PackageProjectUrl>
-    <PackageTags>.NET Core, Pagination, Page</PackageTags>
+    <Description>DotUy.Pagination offers paged result-type enumerables.</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

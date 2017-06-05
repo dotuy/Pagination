@@ -5,18 +5,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Product>DotUy .NET Pagination extension for EntityFrameworkCore</Product>
-    <Description>Enumerable Page IQueryable extensions</Description>
-    <PackageProjectUrl>https://github.com/dotuy/Pagination</PackageProjectUrl>
-    <PackageTags>EntityFrameworkCore Pagination Extension</PackageTags>
+    <Description>DotUy.Pagination.EntityFramework offers easy extension to create paged results from IQueryable sources.</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(EFCoreVersion)" />
+    <ProjectReference Include="..\DotUy.Pagination\DotUy.Pagination.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotUy.Pagination\DotUy.Pagination.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(EFCoreVersion)" />
   </ItemGroup>
 
 </Project>
