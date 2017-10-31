@@ -1,5 +1,5 @@
 <Project>
   <PropertyGroup>
-    <EFCoreVersion>1.1.2</EFCoreVersion>
+    <EFCoreVersion>2.0.0</EFCoreVersion>
   </PropertyGroup>
 </Project>
