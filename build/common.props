@@ -2,7 +2,7 @@
   <Import Project="dependencies.props" />
   <PropertyGroup>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <VersionSuffix>preview</VersionSuffix>
+    <VersionSuffix></VersionSuffix>
   </PropertyGroup>
   <PropertyGroup>
     <Product>DotUy NET Pagination</Product>
