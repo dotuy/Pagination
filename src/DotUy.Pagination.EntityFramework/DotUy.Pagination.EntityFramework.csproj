@@ -3,7 +3,7 @@
   <Import Project="..\..\build\common.props" />
   
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>DotUy.Pagination.EntityFramework offers easy extension to create paged results from IQueryable sources.</Description>
     <PackageReleaseNotes></PackageReleaseNotes>
